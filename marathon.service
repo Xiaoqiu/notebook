@@ -1,0 +1,10 @@
+# /etc/systemd/system/
+[Unit]
+Description=Marathon
+After=syslog.target
+
+[Service]
+ExecStart=/usr/local/src/marathon-1.5.0-96-gf84298d/bin/marathon --master zk://192.168.153.3:2181,192.168.153.4:2181,192.168.153.5:2181/mesos --zk zk://192.168.153.3:2181,192.168.153.4:2181,192.168.153.5:2181/marathon
+
+[Install]
+WantedBy=multi-user.target

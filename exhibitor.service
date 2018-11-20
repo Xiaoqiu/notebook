@@ -1,0 +1,10 @@
+# /etc/systemd/system/
+[Unit]
+Description=Exhibitor
+After=syslog.target
+
+[Service]
+ExecStart=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64/jre/bin/java -jar /usr/local/zookeeper/bin/exhibitor-1.6.0.jar -c file
+
+[Install]
+WantedBy=multi-user.target
