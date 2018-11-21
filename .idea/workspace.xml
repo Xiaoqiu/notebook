@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e68e58e1-5b2f-4000-8784-445ef10f8d7f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/vagrant/Vagrantfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vagrant/Vagrantfile.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vagrant/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/masteringansible" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/masteringansible" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ansible/masteringansible/01 - Installation and Configuration of Ansible/05 - Validating Ansible Installation/01/hosts" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/masteringansible/01 - Installation and Configuration of Ansible/05 - Validating Ansible Installation/01/hosts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,56 +30,59 @@
     <session id="-1281716942">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Dockerfile" value="1" />
+          <entry key="Vagrantfile" value="2" />
+          <entry key="bak" value="1" />
           <entry key="cfg" value="5" />
           <entry key="go" value="1" />
           <entry key="hosts" value="5" />
-          <entry key="md" value="3" />
-          <entry key="service" value="2" />
-          <entry key="sh" value="4" />
+          <entry key="md" value="4" />
+          <entry key="service" value="3" />
+          <entry key="sh" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Bash" value="4" />
+          <entry key="Bash" value="6" />
           <entry key="Dockerfile" value="1" />
           <entry key="Go" value="1" />
           <entry key="Ini" value="3" />
-          <entry key="Markdown" value="3" />
-          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="Markdown" value="4" />
+          <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="hosts" value="17" />
-          <entry key="md" value="11229" />
+          <entry key="md" value="12812" />
           <entry key="service" value="36" />
           <entry key="sh" value="1061" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Bash" value="1362" />
-          <entry key="Markdown" value="10928" />
+          <entry key="Bash" value="1429" />
+          <entry key="Markdown" value="12444" />
           <entry key="PLAIN_TEXT" value="53" />
         </counts>
       </usages-collector>
@@ -82,11 +91,20 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shell/readme.md">
+        <entry file="file://$PROJECT_DIR$/shell/maven_push.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vagrant/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="58">
-                <caret line="239" column="23" lean-forward="true" selection-start-line="239" selection-start-column="4" selection-end-line="239" selection-end-column="23" />
+              <first_editor relative-caret-position="62">
+                <caret line="96" column="11" selection-start-line="96" selection-start-column="11" selection-end-line="96" selection-end-column="11" />
               </first_editor>
               <second_editor />
             </state>
@@ -94,38 +112,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ansible/masteringansible/02 - Ansible Architecture and Design/01 - Ansible Inventories/01/ansible.cfg">
+        <entry file="file://$PROJECT_DIR$/exhibitor.service">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="116">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ansible/masteringansible/02 - Ansible Architecture and Design/01 - Ansible Inventories/01/hosts">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ansible/masteringansible/02 - Ansible Architecture and Design/01 - Ansible Inventories/02/ansible.cfg">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ansible/masteringansible/02 - Ansible Architecture and Design/01 - Ansible Inventories/02/hosts">
+        <entry file="file://$PROJECT_DIR$/vagrant/Vagrantfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="203">
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shell/maven_push.sh">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vagrant/Vagrantfile.bak">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dcos-check.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="1073">
+              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -171,11 +184,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>for</find>
+      <find>add</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.11.1/libexec" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ansible/masteringansible" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -186,6 +200,7 @@
         <option value="$PROJECT_DIR$/ansible/masteringansible/01 - Installation and Configuration of Ansible/05 - Validating Ansible Installation/01/hosts" />
         <option value="$PROJECT_DIR$/shell/readme.md" />
         <option value="$PROJECT_DIR$/shell/maven_push.sh" />
+        <option value="$PROJECT_DIR$/vagrant/readme.md" />
       </list>
     </option>
   </component>
@@ -196,10 +211,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="90" />
-    <option name="y" value="72" />
-    <option name="width" value="1299" />
-    <option name="height" value="776" />
+    <option name="x" value="1093" />
+    <option name="y" value="56" />
+    <option name="width" value="1182" />
+    <option name="height" value="708" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -236,7 +251,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -247,17 +261,13 @@
             <path>
               <item name="script" type="b2602c69:ProjectViewProjectNode" />
               <item name="script" type="462c0819:PsiDirectoryNode" />
-              <item name="ansible" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="script" type="b2602c69:ProjectViewProjectNode" />
-              <item name="script" type="462c0819:PsiDirectoryNode" />
-              <item name="shell" type="462c0819:PsiDirectoryNode" />
+              <item name="vagrant" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -271,10 +281,14 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.19944212" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.vagrant" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vagrant" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vagrant" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -352,23 +366,27 @@
       <workItem from="1540858050825" duration="9356000" />
       <workItem from="1540881093889" duration="2465000" />
       <workItem from="1541061472311" duration="2562000" />
+      <workItem from="1542676983581" duration="1264000" />
+      <workItem from="1542778577513" duration="3939000" />
+      <workItem from="1542791743562" duration="1898000" />
+      <workItem from="1542806354474" duration="2451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53904000" />
+    <option name="totallyTimeSpent" value="63456000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="90" y="158" width="1299" height="776" extended-state="0" />
+    <frame x="1093" y="56" width="1182" height="708" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26809865" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23421052" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293718" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -378,7 +396,7 @@
       <window_info anchor="bottom" id="Docker" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32894737" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32767403" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.3287858" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="13" />
       <window_info anchor="bottom" id="Problems" order="14" />
@@ -412,24 +430,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exhibitor.service">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/glusterfs-install.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1508">
           <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dcos-check.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -457,6 +461,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shell/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="6931">
+            <caret line="239" column="23" selection-start-line="239" selection-start-column="4" selection-end-line="239" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ansible/masteringansible/02 - Ansible Architecture and Design/01 - Ansible Inventories/01/ansible.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -469,6 +483,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ansible/masteringansible/02 - Ansible Architecture and Design/01 - Ansible Inventories/02/ansible.cfg">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible/masteringansible/02 - Ansible Architecture and Design/01 - Ansible Inventories/02/hosts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shell/maven_push.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vagrant/Vagrantfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vagrant/Vagrantfile.bak">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dcos-check.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1073">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ansible/masteringansible/01 - Installation and Configuration of Ansible/05 - Validating Ansible Installation/01/ansible.cfg">
       <provider selected="true" editor-type-id="text-editor">
@@ -498,27 +543,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ansible/masteringansible/02 - Ansible Architecture and Design/01 - Ansible Inventories/02/hosts">
+    <entry file="file://$PROJECT_DIR$/exhibitor.service">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state relative-caret-position="116">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shell/readme.md">
+    <entry file="file://$PROJECT_DIR$/vagrant/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="58">
-            <caret line="239" column="23" lean-forward="true" selection-start-line="239" selection-start-column="4" selection-end-line="239" selection-end-column="23" />
+          <first_editor relative-caret-position="62">
+            <caret line="96" column="11" selection-start-line="96" selection-start-column="11" selection-end-line="96" selection-end-column="11" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shell/maven_push.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
