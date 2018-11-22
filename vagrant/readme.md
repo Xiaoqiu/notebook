@@ -105,5 +105,77 @@ vagrant reload
      
 ```
 
+### 同步目录
+#### 默认同步目录
+- 项目所在目录例如Vagrantfile文件所在目录
+- 每次重启(vagrant reload)都会同步到虚拟机/vagrant目录下
+- 禁用默认的同步目录
+```bash
+    # 禁用默认的同步目录, 重启生效
+    # "." 主机的当前目录
+    # "/vagrant" 虚拟机的同步目录
+    config.vm.synced_folder ".", "/vagrant", disabled:true
+```
+#### 设置同步目录
+- 同步目录的类型默认就会是 Virtualbox。这种类型的同步需要你在虚拟机上安装 virtualbox guest addition，如果没安装，在启动虚拟机的时候会报错。
+- 这种类型的共享目录存在性能问题
+
+```bash
+    cogfig.vm.synced_folder "./app", "/mnt"
+```
+#### NFS类型的同步目录
+- macOS 平台用户可以使用 NFS 类型的共享目录，Windows 用户无法使用这种类型的共享目录
+
+```bash
+    config.vm.synced_folder "./app", "/mnt", type: "nfs"
+```
+
+
+#### SMB类型同步目录
+- Windows 用户可以使用 SMB 这种类型的同步目录
+```bash
+    sudo yum install cifs-utils -y
+    config.vm.synced_folder "app", "/mnt", type: "smb", smb_username: "wanghao", smb_password: "密码"
+```
+
+
+
+#### Virtualbox类型的同步目录
+- 虚拟机上安装了 virtualbox guest addition
+- 这种类型的共享目录存在性能问题
+- 如果网站应用只有少量文件还可以，如果文件数量太多，在这种类型的共享目录上运行的网站会非常慢。
+
+#### 同步目录的用户权限
+- 
+
+### 定义多台虚拟机
+- 如果你想在之前创建的 awesome-project 里测试多机配置，先把之前创建的虚拟机使用 vagrant destroy 销毁掉，然后添加新的多机配置，再去启动
+- 在 Vagrantfile 里定义一台机器，就是一个代码块：
+```bash
+    Vagrant.configure("2") do |config|
+      config.vm.box = "centos/7"
+    
+      config.vm.define "web" do |web|
+        web.vm.network "private_network", ip: "192.168.33.11"
+      end
+    
+      config.vm.define "db" do |db|
+        db.vm.network "private_network", ip: "192.168.33.12"
+      end
+    end
+```
+- 多台共用的一些配置可以放在定义虚拟机的代码块之外，比如：
+```bash
+    config.vm.box = "centos/7"
+```
+
+- 启动
+- 执行 vagrant up，可以同时启动定义的所有的虚拟机。
+- 也可以单独启动某台机器 vagrant reload web
+
+
+
+
+
 
 
