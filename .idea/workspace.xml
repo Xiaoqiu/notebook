@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e68e58e1-5b2f-4000-8784-445ef10f8d7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/script_ear_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/META-INF/application.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_demo/java_demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_demo/src/main/java/Lambda4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_demo/src/main/java/demo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_demo/src/main/java/java8demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_demo/src/md/Proxy.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_demo/src/md/concurrentMap.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_demo/src/md/demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_demo/src/md/design_pattern.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_demo/src/md/java8demo.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_demo/src/md/thread.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_demo/src/md/validate.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vagrant/ssh-hosts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vagrant/ssh_copy.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/script.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/script.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/ansible.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/ansible.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ansible/masteringansible" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/masteringansible" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ansible/masteringansible/01 - Installation and Configuration of Ansible/05 - Validating Ansible Installation/01/hosts" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/masteringansible/01 - Installation and Configuration of Ansible/05 - Validating Ansible Installation/01/hosts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vagrant/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/vagrant/readme.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/java_demo/target/" />
@@ -172,8 +147,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java_demo/src/main/java/Lambda4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+            <state relative-caret-position="205">
+              <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
               <folding>
                 <element signature="e#508#509#0" expanded="true" />
                 <element signature="e#540#541#0" expanded="true" />
@@ -320,9 +295,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="904" />
-    <option name="y" value="250" />
-    <option name="width" value="802" />
+    <option name="x" value="498" />
+    <option name="y" value="23" />
+    <option name="width" value="911" />
     <option name="height" value="709" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -577,7 +552,7 @@
       <workItem from="1542940261792" duration="2485000" />
       <workItem from="1543218142743" duration="1712000" />
       <workItem from="1543261013570" duration="3507000" />
-      <workItem from="1543338398233" duration="10225000" />
+      <workItem from="1543338398233" duration="10405000" />
     </task>
     <servers />
   </component>
@@ -587,13 +562,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104360000" />
+    <option name="totallyTimeSpent" value="104540000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="904" y="250" width="802" height="709" extended-state="0" />
+    <frame x="607" y="23" width="911" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23684211" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3647871" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -610,7 +585,7 @@
       <window_info anchor="bottom" id="Docker" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.43559322" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4338983" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32711864" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="13" />
       <window_info anchor="bottom" id="Problems" order="14" />
@@ -938,8 +913,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java_demo/src/main/java/Lambda4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        <state relative-caret-position="205">
+          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
           <folding>
             <element signature="e#508#509#0" expanded="true" />
             <element signature="e#540#541#0" expanded="true" />

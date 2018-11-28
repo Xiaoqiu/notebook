@@ -1,6 +1,6 @@
-/**
+package java8; /**
  * Copyright (C): 恒大集团版权所有 Evergrande Group
- * FileName: java8demo
+ * FileName: demo01
  * Author:   huangxiaoqiu
  * Date:     2018-11-28 10:25
  * Description:
@@ -21,7 +21,7 @@ import java.util.List;
  * @author huangxiaoqiu
  * @since 1.0.0
  */
-public class java8demo {
+public class demo01 {
   public static void main(String[] args){
     //使用旧版本的Java排序
     List<String> names = Arrays.asList("perter","anna","mike","xenia");
