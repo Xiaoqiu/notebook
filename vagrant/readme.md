@@ -173,8 +173,25 @@ vagrant reload
 - 执行 vagrant up，可以同时启动定义的所有的虚拟机。
 - 也可以单独启动某台机器 vagrant reload web
 
+### 创建自己的box
+- 参考：http://www.cnblogs.com/davenkin/p/create-own-vagrant-box.html
+- http://www.blue7wings.com/php%20tutorial/Better-Dev-Envirenment-Vagrant.html
+```bash
+# 先关闭虚拟机：
+vagrant halt
 
+vagrant package 当前要被打包的系统名 --output 打包到的地址/包名
+# 由于在Vagrantfile中，我们为虚拟机指定了名字“my-vertualbox”，在创建box时我们可以直接通过该名字指向新建的虚拟机:
+vagrant package --base my-virtualbox
 
+# Vagrant将创建名为package.box的新的box，此后我们便可以使用该package.box作为其他虚拟机的基础box了
+vagrant package
+
+# 再把Vagrantfile拷贝过去 两条命令就可以重现当前的开发环境，
+ vagrant box add server package.box
+ vagrant up
+
+```
 
 
 

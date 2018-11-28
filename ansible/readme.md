@@ -1,3 +1,15 @@
+```bash
+  # yum install openssh-server -y
+  # sshd配置文件是：sudo vi /etc/ssh/sshd_config
+  # PasswordAuthentication yes      # 是否允许使用基于密码的认证。默认为"yes"。
+  # sudo systemctl start sshd
+  # sudo systemctl enable sshd
+  # 删除用户
+  userdel test
+  # 显示所有用户
+  cut -d : -f 1 /etc/passwd
+```
+
 # ansible inventories
 - available on github from:
    - https://github.com/spurin/masteringansible
@@ -28,8 +40,10 @@
     [allservers:children]
     webservers
     dbservers
-    
-    # 测试清单命令
+```
+
+```bash
+   # 测试清单命令
     ansible allservers --list-hosts
     
     # 列举指定路径下的host文件：/Users/kate/code/script/ansible/hosts
@@ -91,14 +105,43 @@
 ```
 - Ansible 配置项
 
-
 #### 运行临时命令
+- 运行临时命令范式
+    - `ansible host-pattern -m module [-a 'module arguments'] [-i inventory]`
+    - host-pattern - 用于指定应在其上运行临时命令的受管主机。它可以是清单中的特定受管主机或主机组。
+    - -m - Ansible 应在目标主机上运行的 模块的名称取为参数。模块是为了实施您的任务而执行的小程序。
+    - -a - 以带引号字符串形式取这些参数的列表。
+    - -i - 指定要使用的其他清单位置，取代当前 Ansible 配置文件中的默认位置。
+    
+- 列出所有模块
+    - `ansible-doc -l`
+- 查看模块文档
+    - ansible-doc ping
+         
+```bash
+    # 生成本地ssh秘钥
+    # 将本地秘钥发给远端服务器(例：用户名为root ip地址为192.168.1.1)
+    ssh-keygen
+    ssh-copy-id vagrant@192.168.33.10 
+    
+```
 
 #### 动态清单
+- 如果清单文件可以执行，它将被视为动态清单程序，Ansible 则将尝试运行它来生成清单。如果文件不可执行，它将被视为静态清单。
 
 ### Playbooks
 #### ansible playbook VS 临时命令
+```bash
+    # 运行
+    ansible-playbook sample.yml
+    # 语法验证
+    ansible-playbook --syntax-check sample.yml
+    # 执行空运行
+    ansible-playbook -C sample.yml
+    
+```
 #### 包含多个play的playbook
+
 #### Playbook语法
 ### 变量，事实，包含（variables,facts,inclusions）
 #### 变量
