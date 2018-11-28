@@ -1,10 +1,4 @@
-package java8; /**
- * Copyright (C): 恒大集团版权所有 Evergrande Group
- * FileName: Lambda4
- * Author:   huangxiaoqiu
- * Date:     2018-11-28 11:01
- * Description:
- */
+package java8;
 /**
  * @author kate
  * @create 2018/11/28
