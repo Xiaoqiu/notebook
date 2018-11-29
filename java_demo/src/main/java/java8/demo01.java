@@ -82,7 +82,7 @@ public class demo01 {
     // 不同于匿名对象，变量num不需要声明为final
     int num2 = 1;
     Converter<Integer,String> stringConverter1 =
-        (from -> String.valueOf(from + num2))
+        (from -> String.valueOf(from + num2));
     stringConverter.convert(2); //3
 
     // 注意：num是隐性的final, 下面的代码编译就会报错

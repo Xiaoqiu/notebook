@@ -20,10 +20,7 @@ public class Lambda4 {
    */
     static int outerStaticNum;
     int outerNum;
-
-    void testScopes(){
-      java8demo.Converter<Inter>
-    }
+    
 
 
 }
