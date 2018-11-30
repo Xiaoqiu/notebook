@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e68e58e1-5b2f-4000-8784-445ef10f8d7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/masteringansible" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/masteringansible" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible/masteringansible/01 - Installation and Configuration of Ansible/05 - Validating Ansible Installation/01/hosts" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/masteringansible/01 - Installation and Configuration of Ansible/05 - Validating Ansible Installation/01/hosts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_demo/src/main/java/java8/Lambda4.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_demo/src/main/java/java8/Lambda4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_demo/src/md/concurrentMap.md" beforeDir="false" afterPath="$PROJECT_DIR$/java_demo/src/md/concurrentMap.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_demo/src/md/java8demo.md" beforeDir="false" afterPath="$PROJECT_DIR$/java_demo/src/md/java8_01.md" afterDir="false" />
-    </list>
+    <list default="true" id="e68e58e1-5b2f-4000-8784-445ef10f8d7f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/java_demo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,10 +52,11 @@
           <entry key="centos" value="1" />
           <entry key="centos1" value="1" />
           <entry key="cfg" value="11" />
+          <entry key="gitignore" value="1" />
           <entry key="go" value="1" />
           <entry key="hosts" value="10" />
-          <entry key="java" value="11" />
-          <entry key="md" value="26" />
+          <entry key="java" value="12" />
+          <entry key="md" value="29" />
           <entry key="service" value="5" />
           <entry key="sh" value="16" />
           <entry key="ssh-hosts" value="3" />
@@ -78,9 +72,9 @@
           <entry key="Dockerfile" value="1" />
           <entry key="Go" value="1" />
           <entry key="Ini" value="9" />
-          <entry key="JAVA" value="11" />
-          <entry key="Markdown" value="26" />
-          <entry key="PLAIN_TEXT" value="30" />
+          <entry key="JAVA" value="12" />
+          <entry key="Markdown" value="29" />
+          <entry key="PLAIN_TEXT" value="31" />
           <entry key="XML" value="2" />
           <entry key="YAML" value="1" />
           <entry key="service" value="2" />
@@ -90,6 +84,7 @@
         <counts>
           <entry key="cfg" value="122" />
           <entry key="dummy" value="8" />
+          <entry key="gitignore" value="9" />
           <entry key="hosts" value="83" />
           <entry key="java" value="2720" />
           <entry key="md" value="15571" />
@@ -104,7 +99,7 @@
           <entry key="Ini" value="122" />
           <entry key="JAVA" value="2742" />
           <entry key="Markdown" value="15098" />
-          <entry key="PLAIN_TEXT" value="129" />
+          <entry key="PLAIN_TEXT" value="138" />
         </counts>
       </usages-collector>
     </session>
@@ -116,24 +111,24 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="29">
-                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+                <caret line="1" selection-start-line="1" selection-end-line="1" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java_demo/src/main/java/java8/Lambda4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            <state relative-caret-position="291">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java_demo/src/md/design_pattern.md">
+        <entry file="file://$PROJECT_DIR$/kubernate/tutorial_01.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor />
@@ -142,23 +137,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java_demo/src/md/demo.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java_demo/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java_demo/src/md/thread.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="440">
-                <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/ansible/masteringansible/01 - Installation and Configuration of Ansible/05 - Validating Ansible Installation/01/hosts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -167,25 +159,9 @@
         <entry file="file://$PROJECT_DIR$/java_demo/src/md/java8_01.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="77">
+              <first_editor relative-caret-position="-310">
                 <caret line="122" column="14" selection-start-line="122" selection-start-column="14" selection-end-line="122" selection-end-column="14" />
-                <folding>
-                  <element signature="e#87#88#0" expanded="true" />
-                  <element signature="e#124#125#0" expanded="true" />
-                  <element signature="e#54#55#0" expanded="true" />
-                  <element signature="e#106#107#0" expanded="true" />
-                </folding>
               </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java_demo/src/md/validate.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor />
               <second_editor />
             </state>
           </provider>
@@ -246,6 +222,7 @@
         <option value="$PROJECT_DIR$/java_demo/src/md/java8_01.md" />
         <option value="$PROJECT_DIR$/java_demo/src/md/concurrentMap.md" />
         <option value="$PROJECT_DIR$/java_demo/src/main/java/java8/Lambda4.java" />
+        <option value="$PROJECT_DIR$/java_demo/.gitignore" />
       </list>
     </option>
   </component>
@@ -269,7 +246,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="479" />
+    <option name="x" value="167" />
     <option name="y" value="23" />
     <option name="width" value="911" />
     <option name="height" value="709" />
@@ -309,8 +286,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -327,38 +304,7 @@
               <item name="script" type="b2602c69:ProjectViewProjectNode" />
               <item name="script" type="462c0819:PsiDirectoryNode" />
               <item name="java_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="script" type="b2602c69:ProjectViewProjectNode" />
-              <item name="script" type="462c0819:PsiDirectoryNode" />
-              <item name="java_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="script" type="b2602c69:ProjectViewProjectNode" />
-              <item name="script" type="462c0819:PsiDirectoryNode" />
-              <item name="java_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="script" type="b2602c69:ProjectViewProjectNode" />
-              <item name="script" type="462c0819:PsiDirectoryNode" />
-              <item name="java_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="java8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="script" type="b2602c69:ProjectViewProjectNode" />
-              <item name="script" type="462c0819:PsiDirectoryNode" />
-              <item name="java_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="md" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -539,13 +485,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109406000" />
+    <option name="totallyTimeSpent" value="109629000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="479" y="23" width="911" height="709" extended-state="0" />
-    <editor active="true" />
+    <frame x="167" y="23" width="911" height="709" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3647871" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.40391254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -562,7 +507,7 @@
       <window_info anchor="bottom" id="Docker" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32881355" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31864408" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.43220338" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32711864" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="13" />
       <window_info anchor="bottom" id="Problems" order="14" />
@@ -583,20 +528,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ansible/masteringansible/01 - Installation and Configuration of Ansible/05 - Validating Ansible Installation/01/ansible.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ansible/masteringansible/01 - Installation and Configuration of Ansible/05 - Validating Ansible Installation/01/hosts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ansible/192.168.33.10">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -713,20 +644,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exhibitor.service">
+      <provider editor-type-id="service" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
-      <provider editor-type-id="service" />
     </entry>
     <entry file="file://$PROJECT_DIR$/marathon.service">
+      <provider editor-type-id="service" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
-      <provider editor-type-id="service" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dcos-check.sh">
       <provider selected="true" editor-type-id="text-editor">
@@ -807,41 +738,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java_demo/src/main/java/demo01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_demo/src/main/java/java8demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2723">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#1876#1877#0" expanded="true" />
-            <element signature="e#1916#1917#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_demo/src/main/java/Lambda4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding>
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/java_demo/src/main/java/demo01.java" />
+    <entry file="file://$PROJECT_DIR$/java_demo/src/main/java/java8demo.java" />
+    <entry file="file://$PROJECT_DIR$/java_demo/src/main/java/Lambda4.java" />
     <entry file="file://$PROJECT_DIR$/java_demo/src/md/demo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
@@ -866,22 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java_demo/src/md/java8_01.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="77">
-            <caret line="122" column="14" selection-start-line="122" selection-start-column="14" selection-end-line="122" selection-end-column="14" />
-            <folding>
-              <element signature="e#87#88#0" expanded="true" />
-              <element signature="e#124#125#0" expanded="true" />
-              <element signature="e#54#55#0" expanded="true" />
-              <element signature="e#106#107#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java_demo/src/md/design_pattern.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -894,7 +777,17 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="29">
-            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <caret line="1" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_demo/src/md/java8_01.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-310">
+            <caret line="122" column="14" selection-start-line="122" selection-start-column="14" selection-end-line="122" selection-end-column="14" />
           </first_editor>
           <second_editor />
         </state>
@@ -902,8 +795,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java_demo/src/main/java/java8/Lambda4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        <state relative-caret-position="291">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kubernate/tutorial_01.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_demo/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
