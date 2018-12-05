@@ -1,0 +1,18 @@
+package atomic;
+/**
+ * @author kate
+ * @create 2018/12/3
+ * @since 1.0.0
+ */
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.FutureTask;
+import java.util.concurrent.atomic.AtomicInteger;
+
+/**
+ * @author huangxiaoqiu
+ * @since 1.0.0
+ */
+public class Sample01 {
+  //AtomicInteger
+}

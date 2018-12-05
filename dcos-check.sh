@@ -20,7 +20,7 @@ bash /usr/local/zookeeper/bin/zkServer.sh start
 
 # start marathon
 systemctl start marathon-src.service
-  http://gittar.eaftest.evergrande.com/evergrande/sms
+
 # stop service
 systemctl stop exhibitor.service
 systemctl disable exhibitor.service
@@ -58,37 +58,6 @@ dcos-mesos-dns.service
 dcos-marathon.service
 dcos-exhibitor.service
 dcos-oauth.service
-
-mesos ui :  http://192.168.81.129:5050/
-marathon ui : http://192.168.81.129:8080/
-: http://192.168.81.129:8123/
-: http://192.168.81.129:8181/
-: http://192.168.81.129:53/
-# 配置路径：/opt/mesosphere/etc
-/var/lib/dcos/exhibitor/conf/zoo.cfg
-zk: server.1 : 192.163.81.129
-zk: server.2 : 192.163.81.130
-zk: server.3 : 192.163.81.131
-# 授权入口：https://auth0.com/
-
-
-sudo docker |
-curl http://192.168.81.129:8080/v2/apps
-
-
-192.168.65.248（跳板机）的eaf-admin用户不能免密到这些机器。
-192.168.89.88
-192.168.89.90
-192.168.89.89
-192.168.89.91
-192.168.81.79
-192.168.81.80
-192.168.81.78
-192.168.81.81
-
-
-
-
 
 
 
