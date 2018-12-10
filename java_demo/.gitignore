@@ -1,3 +1,7 @@
 ./target/*
 *.class
 ./src/md/images/*
+*.jpg
+*.png
+*.uml
+*.webp
