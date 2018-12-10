@@ -14,5 +14,12 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @since 1.0.0
  */
 public class Sample01 {
-  //AtomicInteger
+  public static void main(String[] args)
+  {
+    //System.out.println(System.getProperty("java.ext.dirs"));
+    //System.out.println(System.getProperty("java.class.path"));
+    while(true){
+      System.out.println("hello world");
+    }
+  }
 }

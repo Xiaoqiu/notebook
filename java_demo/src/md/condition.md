@@ -107,15 +107,109 @@ public final void await() throws InterruptedException {
         reportInterruptAfterWait(interruptMode);
 }
 ```
+回到上面的demo，锁被释放后，线程1开始沉睡，这个时候线程因为线程1沉睡时，
+会唤醒AQS队列中的头结点，所所以线程2会开始竞争锁，并获取到，等待3秒后，
+线程2会调用signal方法，“发出”signal信号，signal方法如下：
+```java
+public final void signal() {
+    if (!isHeldExclusively())
+        throw new IllegalMonitorStateException();
+    Node first = firstWaiter; // firstWaiter为condition自己维护的一个链表的头结点，
+                              // 取出第一个节点后开始唤醒操作
+    if (first != null)
+        doSignal(first);
+}
+```
+说明下，其实Condition内部维护了等待队列的头结点和尾节点，
+该队列的作用是存放等待signal信号的线程，该线程被封装为Node节点后存放于此。
 
+```java
+public class ConditionObject implements Condition, java.io.Serializable {
+    private static final long serialVersionUID = 1173984872572414699L;
+    /** First node of condition queue. */
+    private transient Node firstWaiter;
+    /** Last node of condition queue. */
+    private transient Node lastWaiter;
+```
+关键的就在于此，我们知道AQS自己维护的队列是当前等待资源的队列，AQS会在资源被释放后，依次唤醒队列中从前到后的所有节点，使他们对应的线程恢复执行。直到队列为空。
 
+而Condition自己也维护了一个队列，该队列的作用是维护一个等待signal信号的队列，两个队列的作用是不同，事实上，每个线程也仅仅会同时存在以上两个队列中的一个，流程是这样的：
 
+1. 线程1调用reentrantLock.lock时，线程被加入到AQS的等待队列中。
 
+2. 线程1调用await方法被调用时，该线程从AQS中移除，对应操作是锁的释放。
 
+3. 接着马上被加入到Condition的等待队列中，以为着该线程需要signal信号。
 
+4. 线程2，因为线程1释放锁的关系，被唤醒，并判断可以获取锁，于是线程2获取锁，并被加入到AQS的等待队列中。
 
+5. 线程2调用signal方法，这个时候Condition的等待队列中只有线程1一个节点，于是它被取出来，并被加入到AQS的等待队列中。 注意，这个时候，线程1 并没有被唤醒。
 
+6. signal方法执行完毕，线程2调用reentrantLock.unLock()方法，释放锁。这个时候因为AQS中只有线程1，于是，AQS释放锁后按从头到尾的顺序唤醒线程时，线程1被唤醒，于是线程1回复执行。
 
+7. 直到释放所整个过程执行完毕。
+
+可以看到，整个协作过程是靠结点在AQS的等待队列和Condition的等待队列中来回移动实现的，
+Condition作为一个条件类，很好的自己维护了一个等待信号的队列，
+并在适时的时候将结点加入到AQS的等待队列中来实现的唤醒操作。
+
+看到这里，signal方法的代码应该不难理解了。
+
+取出头结点，然后doSignal
+
+```java
+public final void signal() {
+    if (!isHeldExclusively()) {
+        throw new IllegalMonitorStateException();
+    }
+    Node first = firstWaiter;
+    if (first != null) {
+        doSignal(first);
+    }
+}
+ 
+private void doSignal(Node first) {
+    do {
+        if ((firstWaiter = first.nextWaiter) == null) // 修改头结点，完成旧头结点的移出工作
+            lastWaiter = null;
+        first.nextWaiter = null;
+    } while (!transferForSignal(first) && // 将老的头结点，加入到AQS的等待队列中
+             (first = firstWaiter) != null);
+}
+ 
+final boolean transferForSignal(Node node) {
+    /*
+     * If cannot change waitStatus, the node has been cancelled.
+     */
+    if (!compareAndSetWaitStatus(node, Node.CONDITION, 0))
+        return false;
+ 
+    /*
+     * Splice onto queue and try to set waitStatus of predecessor to
+     * indicate that thread is (probably) waiting. If cancelled or attempt
+     * to set waitStatus fails, wake up to resync (in which case the
+     * waitStatus can be transiently and harmlessly wrong).
+     */
+    Node p = enq(node);
+    int ws = p.waitStatus;
+    // 如果该结点的状态为cancel 或者修改waitStatus失败，则直接唤醒。
+    if (ws > 0 || !compareAndSetWaitStatus(p, ws, Node.SIGNAL))
+        LockSupport.unpark(node.thread);
+    return true;
+}
+
+```
+可以看到，正常情况 ws > 0 || !compareAndSetWaitStatus(p, ws, Node.SIGNAL)这个判断是不会为true的，
+所以，不会在这个时候唤醒该线程。
+
+只有到发送signal信号的线程调用reentrantLock.unlock()后
+因为它已经被加到AQS的等待队列中，所以才会被唤醒。
+
+总结：
+
+本文从代码的角度说明了Condition的实现方式，其中，涉及到了AQS的很多操作，
+比如AQS的等待队列实现独占锁功能，不过，这不是本文讨论的重点，
+等有机会再将AQS的实现单独分享出来。
 
 
 

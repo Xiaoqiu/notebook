@@ -6,6 +6,9 @@ package lock;
  * @since 1.0.0
  */
 
+import java.util.concurrent.locks.ReentrantLock;
+import java.util.concurrent.locks.ReentrantReadWriteLock;
+
 /**
  * 修饰代码块，只作用于调用对象
  * @author huangxiaoqiu
