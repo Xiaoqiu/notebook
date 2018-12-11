@@ -16,10 +16,10 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class Sample01 {
   public static void main(String[] args)
   {
+    System.out.println(System.getProperty("java.io.tmpdir"));
+
+
     //System.out.println(System.getProperty("java.ext.dirs"));
     //System.out.println(System.getProperty("java.class.path"));
-    while(true){
-      System.out.println("hello world");
-    }
   }
 }
